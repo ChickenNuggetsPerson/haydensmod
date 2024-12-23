@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "haydensmod",
 	"version": "${version}",
-	"name": "HaydensMod",
+	"name": "Haydens Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Hayden"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hsteele.HaydensMod"
+			"com.haydensmod.HaydensMod"
 		],
 		"client": [
-			"com.hsteele.HaydensModClient"
+			"com.haydensmod.HaydensModClient"
 		]
 	},
 	"mixins": [

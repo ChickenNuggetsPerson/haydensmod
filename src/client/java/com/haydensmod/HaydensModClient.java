@@ -1,4 +1,4 @@
-package com.hsteele;
+package com.haydensmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

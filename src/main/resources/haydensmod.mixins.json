@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.hsteele.mixin",
+	"package": "com.haydensmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"HaydensModMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

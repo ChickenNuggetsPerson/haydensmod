@@ -1,12 +1,17 @@
-package com.hsteele;
+package com.haydensmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.haydensmod.commands.RegisterCommands;
+import com.haydensmod.commands.TestCommand;
+import com.haydensmod.wandsystem.WandSystem;
+
 public class HaydensMod implements ModInitializer {
-	public static final String MOD_ID = "haydensmod";
+	public static final String MOD_ID = "modid";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -20,5 +25,12 @@ public class HaydensMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		
+
+		// Register Commands
+		RegisterCommands.register();
+
+		// Register Wand System
+		WandSystem.register();
 	}
 }
